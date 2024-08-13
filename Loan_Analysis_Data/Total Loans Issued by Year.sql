@@ -3,5 +3,3 @@ SELECT EXTRACT(YEAR FROM TO_DATE(l.issue_date, 'DD-MM-YYYY')) AS issue_year, COU
 FROM loans l
 GROUP BY issue_year
 ORDER BY issue_year;
-
-select * FROM employment
